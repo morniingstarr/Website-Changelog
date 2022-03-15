@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+}
+.container {
+    position: relative;
+    top: 50px;
+    margin-inline: auto;
+    background-color: #151515;
+    border-radius: 10px;
+    width: 80%;
+    height: 700px;
+}
+.version {
+    position: relative;
+    top: 7px;
+    text-align: center;
+    background-color: #181818;
+    width: 99%;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-inline: auto;
+}
+.version a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.fa-circle-check {
+    position: relative;
+    top: 1px;
+    right: 1px;
+    margin-right: 0px;
+    color: white;
+    box-shadow: 0 0 5px black;
+    border-radius: 100px;
+    font-size: 14px;
+}
+.fa-circle-xmark {
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin-right: 0px;
+    color: white;
+    box-shadow: 0 0 5px black;
+    border-radius: 100px;
+    font-size: 15px;
+}
+.fa-circle-exclamation {
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin-right: 0px;
+    color: white;
+    box-shadow: 0 0 3px black;
+    border-radius: 100px;
+    font-size: 15px;
+}
+.updates {
+    
+    text-align: center;
+    margin-inline: auto;
+    width: 30%;
+    height: 150px;
+}
+.updatesBox {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.updatesBox a {
+    opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 8px;
+    color: white;
+    background-color: #009E60;
+    text-decoration: none;
+}
+.updatesBoxR {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.updatesBoxR a {
+    opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 8px;
+    color: white;
+    background-color: #D22B2B;
+    text-decoration: none;
+}
+.updatesBoxY {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.updatesBoxY a {
+    opacity: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 8px;
+    color: white;
+    background-color: #FFC000;
+    text-decoration: none;
+}
+.feature {
+    position: relative;
+    left: 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
